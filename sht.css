@@ -1,0 +1,71 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.app{
+    align-items: center;
+    border-radius: 10px;
+    background-color: aqua;
+	padding: 28px;
+	margin: 0 28px;
+    width: 400px;
+	box-shadow: 0 15px 20px  #ABB2B9
+    
+
+}
+h3{
+    margin-left: 110px;
+    margin-bottom: 30px;
+}
+.how{
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.form{
+    display: flex;
+	justify-content: center;
+    border-radius: 50px;
+    height: 30px;
+    width: 350px;
+
+}
+.enter{
+    border: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border:2px solid black;
+
+}
+.button .int{
+    /* display: flex; */
+    position: bottom;
+     border-radius: 5px; 
+     height: 25px; 
+    width: 100px;
+    margin-left: 115px;
+    margin-top: 30px;
+    border:1px solid black;
+    
+    
+
+    justify-content: center;
+
+}
+.button :hover{
+    font-weight: bold;
+    color: rgb(213, 230, 236);
+    /* background: #f1f1f1; */
+    background-color: rgba(0,0,0,0.1);
+}
